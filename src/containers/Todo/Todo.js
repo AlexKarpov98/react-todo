@@ -4,7 +4,7 @@ import TodoForm from '../../components/Todo/TodoForm/TodoForm'
 import TodoList from '../../components/Todo/TodoList/TodoList'
 
 import { connect } from 'react-redux';
-import * as actions from '../../store/actions/actions'
+import * as actions from '../../store/actions'
 import ResetTodos from '../../components/Todo/ResetTodos/ResetTodos';
 
 const mapStateToProps = (state) => ({
